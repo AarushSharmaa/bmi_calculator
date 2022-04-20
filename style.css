@@ -1,0 +1,82 @@
+body {
+    margin-top: 10rem;
+    background-color: whitesmoke
+}
+
+.about {
+    text-align: center;
+    font-weight: bolder;
+    color: grey;
+    font-style: normal;
+    margin: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #7c3aed;
+    font-style: normal;
+    margin: auto;
+}
+
+.information {
+    color: #7c3aed;
+    font-weight: lighter;
+    margin: 2rem auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #7c3aed;
+    font-weight: bolder;
+    width: 100%;
+    max-width: 100%;
+}
+
+#inputWeight {
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem auto;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+
+#inputHeight {
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem auto;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+
+#btn {
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem auto;
+    background-color: #7c3aed;
+    ;
+    color: black;
+    ;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#output {
+    color: #7c3aed;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.social-media {
+    text-align: center;
+    margin: 1rem auto;
+    font-style: italic;
+    font-weight: bolder;
+    color: #7c3aed;
+}
